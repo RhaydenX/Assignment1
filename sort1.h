@@ -1,1 +1,1 @@
-void sort1(int * a, int num);
+void sort1(int * a, int n);

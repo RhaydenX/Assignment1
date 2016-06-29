@@ -1,20 +1,20 @@
 #include "sort1.h"
 
-void sort1(int * a, int num)
+void sort1(int *a,int n)
  {
-   int i, j, temp;
- 
-   for (i = 1; i < num; i++)
+	int i, j, k, temp;
+   for (i = 1; i < n; i++)
     {
-      for (j = 0; j < num - 1; j++)
-       {
-         if (a[j] > a[j + 1])
-          {
+      for (j = 0; j < n - 1; j++) 
+      {
+         if (a[j] > a[j + 1]) 
+         {
             temp = a[j];
             a[j] = a[j + 1];
             a[j + 1] = temp;
-          }
          }
       }
    }
+
+
 }
